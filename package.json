@@ -1,7 +1,10 @@
 {
   "name": "ComponentLibrary",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "author": "Christian Kaal <christiankaal@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.2.21"
+  }
 }
