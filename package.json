@@ -1,0 +1,7 @@
+{
+  "name": "ComponentLibrary",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Christian Kaal <christiankaal@gmail.com>",
+  "license": "MIT"
+}
