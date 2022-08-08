@@ -36,5 +36,14 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "rollup -c"
-  }
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrixuAMG/ComponentLibrary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CrixuAMG/ComponentLibrary/issues"
+  },
+  "homepage": "https://github.com/CrixuAMG/ComponentLibrary#readme"
 }
