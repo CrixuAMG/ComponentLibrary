@@ -1,5 +1,5 @@
 {
-  "name": "ComponentLibrary",
+  "name": "@crixu/componentlibrary",
   "version": "1.0.0",
   "main": "src/index.js",
   "author": "Christian Kaal <christiankaal@gmail.com>",
@@ -8,6 +8,9 @@
     "vue": "^3.2.21"
   },
   "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.1.0",
     "@babel/core": "^7.18.9",
     "@storybook/addon-actions": "^6.5.9",
     "@storybook/addon-essentials": "^6.5.9",
@@ -29,6 +32,7 @@
     "vue": "^3.2.37"
   },
   "scripts": {
+    "serve": "vue-cli-service serve --mode=local",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "rollup -c"
